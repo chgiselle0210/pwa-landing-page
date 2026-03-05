@@ -1,0 +1,64 @@
+{
+    "name": "Mi Landing Page por Giselle Cantú Chávez",
+    "short_name": "Landing PWA",
+    "description": "Landing page personal con proyectos, multimedia y formulario de contacto.",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ff7aa2",
+    "orientation": "portrait-primary",
+    "scope": "./",
+    "lang": "es-MX",
+    "icons": [
+    {
+      "src": "assets/img/favicon.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/favicon1.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/favicon2.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/favicon3.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/favicon4.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/favicon5.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/favicon6.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/favicon7.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/favicon8.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/favicon9.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+    ]
+}

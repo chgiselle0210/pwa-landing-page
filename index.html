@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mi Landing Page | Avance PWA</title>
+  <meta name="description" content="Landing page personal con proyectos, multimedia y formulario de contacto." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/img/favicon.png" />
+  <meta name="theme-color" content="#ff7aa2" />
+  <meta name="MobileOptimized" content="width" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="apple-touch-icon" href="assets/img/favicon.png" />
+  <link rel="manifest" href="manifest.json" />
+</head>
+
+<body>
+
+  <header class="header">
+    <nav class="nav container">
+      <a class="logo" href="#inicio">Mi Portafolio</a>
+
+      <button class="menuBtn" id="menuBtn" aria-label="Abrir menú">☰</button>
+
+      <ul class="menu" id="menu">
+        <li><a href="#proyectos">Histórico</a></li>
+        <li><a href="#multimedia">Visuales</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="inicio" class="hero">
+    <div class="container heroGrid">
+      <section class="heroText">
+        <h1>Currículum vitae</h1>
+
+        <p class="subtitle">
+          Este es el avance de mi landing page en HTML para convertirla en una Progressive Web App.
+          Aquí, a modo de currículum vitae, muestro proyectos reales, contenido visual y mi contacto por correo.
+        </p>
+
+        <p class="pitch">
+          Me dedico a crear soluciones Web claras, estructuradas y funcionales,
+          combinando desarrollo frontend, backend y exploración de tecnologías emergentes como IA.
+        </p>
+
+        <div class="ctaRow">
+          <a class="btn primary" href="#contacto">Enviar mensaje</a>
+          <a class="btn ghost" href="#proyectos">Ver histórico</a>
+        </div>
+
+        <div class="badges">
+          <span class="badge">HTML</span>
+          <span class="badge">CSS</span>
+          <span class="badge">JavaScript</span>
+          <span class="badge">Base para PWA</span>
+        </div>
+      </section>
+
+      <aside class="heroCard">
+        <img class="avatar" src="assets/img/profile.jpg" alt="Foto o imagen representativa" />
+        <div class="cardBody">
+          <h2>Sobre mí</h2>
+          <p>
+            Soy estudiante de Tecnologías de la Información con formación adicional en ingeniería en biotecnología.
+            Me interesa el desarrollo de software, la integración de IA y el uso de herramientas computacionales
+            para resolver problemas reales.
+          </p>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <section id="proyectos" class="section">
+    <div class="container">
+      <h2>Histórico de proyectos</h2>
+      <p class="sectionHint">
+        Proyectos académicos y profesionales en los que he participado, enfocados en desarrollo de software y tecnología aplicada.
+      </p>
+
+      <div class="timeline">
+
+        <article class="tlItem">
+          <div class="tlDot"></div>
+          <div class="tlContent">
+            <h3>Proyecto 1 — Sistema de entrenamiento comercial con IA</h3>
+            <p class="muted">2024 · Next.js / ASP.NET Core / Inteligencia Artificial</p>
+            <p>
+              Desarrollo de un sistema interactivo de capacitación comercial basado en un avatar con inteligencia artificial.
+              El sistema simula conversaciones de venta y proporciona retroalimentación para mejorar habilidades comerciales.
+              Proyecto desarrollado durante mi estadía profesional.
+            </p>
+          </div>
+        </article>
+
+        <article class="tlItem">
+          <div class="tlDot"></div>
+          <div class="tlContent">
+            <h3>Proyecto 2 — Backend para plataforma de capacitación interna</h3>
+            <p class="muted">2024 · ASP.NET Core / APIs REST</p>
+            <p>
+              Implementación del backend para una plataforma interna de capacitación, incluyendo autenticación,
+              gestión de usuarios y comunicación entre módulos, priorizando una arquitectura clara y mantenible.
+            </p>
+          </div>
+        </article>
+
+        <article class="tlItem">
+          <div class="tlDot"></div>
+          <div class="tlContent">
+            <h3>Proyecto 3 — Integración de IA para análisis de interacciones</h3>
+            <p class="muted">2024 · Python / Procesamiento de lenguaje natural</p>
+            <p>
+              Integración de un módulo experimental de análisis de lenguaje natural para evaluar respuestas del usuario
+              en escenarios simulados, generando métricas básicas y retroalimentación automatizada.
+            </p>
+          </div>
+        </article>
+
+        <article class="tlItem">
+          <div class="tlDot"></div>
+          <div class="tlContent">
+            <h3>Proyecto 4 — Landing profesional y base para PWA</h3>
+            <p class="muted">2025 · HTML / CSS / JavaScript</p>
+            <p>
+              Diseño y desarrollo de una landing page personal con enfoque visual moderno,
+              estructura semántica clara y base técnica para su evolución a Progressive Web App (PWA).
+            </p>
+          </div>
+        </article>
+
+        <article class="tlItem">
+          <div class="tlDot"></div>
+          <div class="tlContent">
+            <h3>Proyecto 5 — Exploración inicial en bioinformática</h3>
+            <p class="muted">En proceso · Python / análisis de datos</p>
+            <p>
+              Proyecto académico en fase inicial orientado al análisis computacional de datos biológicos,
+              aplicando conceptos básicos de programación y análisis de datos como parte de mi formación en biotecnología.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="multimedia" class="section alt">
+    <div class="container">
+      <h2>Elementos visuales</h2>
+      <p class="sectionHint">
+        Muestras visuales y demostraciones relacionadas con proyectos desarrollados.
+      </p>
+
+      <div class="mediaGrid">
+        <figure class="mediaCard">
+          <img src="assets/img/project1.jpg" alt="Sistema de entrenamiento comercial con IA — interfaz y avatar" />
+          <figcaption>
+            Proyecto 1 — Sistema de entrenamiento comercial con IA (interfaz y avatar)
+          </figcaption>
+        </figure>
+
+        <figure class="mediaCard">
+          <img src="assets/img/project2.jpg" alt="Backend de plataforma de capacitación interna — APIs y módulos" />
+          <figcaption>
+            Proyecto 2 — Backend de plataforma de capacitación interna (APIs y módulos)
+          </figcaption>
+        </figure>
+
+        <div class="mediaCard">
+  <div class="videoWrap">
+    <iframe
+      src="https://www.youtube.com/embed/3S3XwoytT6g"
+      title="Demo general del sistema con avatar de IA"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+  <p class="muted small">
+    Demo general del sistema — uso de avatar con IA para entrenamiento y simulación de interacciones.
+  </p>
+</div>
+
+          <p class="muted small">
+            Demo general del sistema — navegación por módulos, flujo principal y funcionamiento general.
+          </p>
+        </div>
+      </div>
+
+      <div class="pulseRow" aria-hidden="true">
+        <span class="pulse"></span>
+        <span class="pulse"></span>
+        <span class="pulse"></span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="section">
+    <div class="container">
+      <h2>Contacto</h2>
+      <p class="sectionHint">
+        Si deseas contactarme, puedes enviarme un mensaje directamente por correo.
+      </p>
+
+      <div class="contactGrid">
+        <div class="contactInfo">
+          <h3>¿Te interesa contactarme?</h3>
+          <p>
+            Déjame tu mensaje y se abrirá tu aplicación de correo con el contenido listo para enviar.
+          </p>
+
+          <div class="contactBox">
+            <p><strong>Correo:</strong> <span class="muted">0210giselle.ch@gmail.com</span></p>
+            <p><strong>Ubicación:</strong> <span class="muted">México</span></p>
+          </div>
+        </div>
+
+        <form class="form">
+          <label>
+            Nombre
+            <input type="text" placeholder="Tu nombre" required />
+          </label>
+
+          <label>
+            Correo
+            <input type="email" placeholder="0210giselle.ch@gmail.com" required />
+          </label>
+
+          <label>
+            Asunto
+            <input type="text" placeholder="Motivo del mensaje" required />
+          </label>
+
+          <label>
+            Mensaje
+            <textarea rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+          </label>
+
+          <button type="submit" class="btn primary">Enviar por correo</button>
+
+          <p class="muted small">
+            Este sitio corresponde a una landing page en desarrollo como base para una Progressive Web App (PWA).
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footerRow">
+      <p class="muted">© 2026 · Portafolio personal</p>
+      <a class="muted" href="#inicio">Volver arriba ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
